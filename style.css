@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.star-main i {
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+
+.active {
+    color: gold;
+}
